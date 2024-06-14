@@ -2,8 +2,8 @@
 Code and data for  paper Raker: A Relation-aware Knowledge Reasoning Model for Inductive Relation Prediction.
 
 ## Requirements:
-- [huggingface transformer]
-- [pytorch]
+- huggingface transformer
+- pytorch
 - networkx 2.5
 - tqdm
 - numpy
