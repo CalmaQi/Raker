@@ -383,7 +383,7 @@ def generate_bert_input_from_scratch(biG, set_type, triples, params=None):
             e2longtext=json.loads(f.read())
     elif  params.dataset.startswith('nell'):
         e2longtext=entity2text
-        with open ('./entity2textOpenAI.txt') as f:
+        with open ('./nelle2text.txt') as f:
             for line in f:
                 entity,text=line.split("\t")
                 text=text.rstrip('\n')
