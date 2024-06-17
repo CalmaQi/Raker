@@ -4,7 +4,7 @@ Code and data for  paper Raker: A Relation-aware Knowledge Reasoning Model for I
 ## Requirements:
 - huggingface transformer
 - pytorch
-- networkx 2.5
+- networkx
 - tqdm
 - numpy
 - sklearn
@@ -18,8 +18,8 @@ $DATASET denotes the dataset name, and $PART denotes the size of the dataset, wh
 
 
 ## Preprocessing Data
-folder "bertrl_data" provides an example of preprocessed data to be input of BERTRL model. 
-<!-- They are actual tsv data examples required for BERTRL. Here we show the example preprocessing scripts. $DATASET denotes the name of the dataset in folder "data", e.g. fb237. -->
+folder "bertrl_data" provides an example of preprocessed data to be input of the model. 
+<!-- They are actual tsv data examples. Here we show the example preprocessing scripts. $DATASET denotes the name of the dataset in folder "data", e.g. fb237. -->
 part paramerter can be specified as full, 1000, 2000, referring to folder "data".
 
 ```
